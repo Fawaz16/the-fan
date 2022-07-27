@@ -7,6 +7,8 @@
 }
 section {
   background-color: #04006b;
+  width: 100%;
+  
 }
 a{
   color: aliceblue;
@@ -48,7 +50,7 @@ a{
 
 /*  */
 
-@keyframes floating {
+ @keyframes floating {
   0% {
     transform: translate(0, 0px);
   }
@@ -58,7 +60,7 @@ a{
   100% {
     transform: translate(0, -0px);
   }
-}
+} 
 /*  carousel*/
 
 .carousel {
@@ -246,11 +248,11 @@ a{
     margin-left: 20px;
     margin-top: 5px;
   }
-  @keyframes floating{
+  /* @keyframes floating{
     0%{transform: translate(0,0px);}
     50%{transform: translate(0,15px);}
     100%{transform: translate(0, -0px);}
-  }
+  } */
   .c-text h2{
     font-size: 60px;
     -webkit-text-stroke: 1.3px;
@@ -295,10 +297,10 @@ animation-duration: 3s;
   animation: scrolltext 5s infinite linear;
 
 }
-@keyframes scrolltext{
+/* @keyframes scrolltext{
 from{transform: translateX(100%);}
 to{transform: translateX(-100%);}
-}
+} */
 
 .d-text img{
   width: 70%;
